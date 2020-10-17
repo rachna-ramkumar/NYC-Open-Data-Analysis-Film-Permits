@@ -151,3 +151,5 @@ if __name__ == "__main__":
                         header=True, inferSchema=True)
     df.select("StartDateTime", "EndDateTime").show()
     dic = get_seasonality(spark, df.select("StartDateTime", "EndDateTime"))
+
+    
