@@ -79,3 +79,5 @@ def timed(fn, files: List[str]=None) -> None:
     print('# RUNTIME (INCLUDING LOADS AND INITIAL DIR PARSING) #')
     print('total runtime:', total_runtime_load)
     print('total avg runtime:', total_runtime_load / actual_len_dfs)
+
+    
