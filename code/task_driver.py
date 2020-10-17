@@ -244,3 +244,5 @@ if __name__ == "__main__":
 	end = time.time()
 	print("Time taken: {}".format(end-start))
 	print("Files produced: permits-by-borough.csv, permits-by-type.csv, borough-deep-view.csv, popularity.csv, duration-by-type.csv, duration-by-borough.csv, overall-popularity.csv, popularity-year-2010...2019.csv, ")
+
+	
